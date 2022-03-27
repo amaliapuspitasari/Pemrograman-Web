@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url(image/wp5164739.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    padding-left: 500px;
+    padding-top: 250px;
+    font-size: 25px;
+}
+
+h2 {
+    margin-left: -100px;
+}
