@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Konversi angka ke huruf</title>
+</head>
+
+<body>
+    <main>
+        <h1>Konversi Nilai Angka ke Huruf</h1>
+        <hr>
+        <div id="judul">Masukkan Nilai yang Akan Dikonversi<br></div>
+
+        <input type="text" name="a" id="a" size="2"> =
+        <input type="text" name="c" id="c" size="2">
+        <br>
+        <input type="button" name="tombol" id="tombol" value="konversi" onClick="konversi()" />
+    </main>
+    <script>
+        function konversi() {
+            var nilai_a = Number(document.getElementById("a").value);
+            var nilai_huruf;
+            if ((nilai_a >= 80) && (nilai_a <= 100))
+                nilai_huruf = 'A';
+            else if ((nilai_a >= 70) && (nilai_a < 80))
+                nilai_huruf = 'B';
+            else if ((nilai_a >= 60) && (nilai_a < 70))
+                nilai_huruf = 'C';
+            else if ((nilai_a >= 50) && (nilai_a < 60))
+                nilai_huruf = 'D';
+            else
+                nilai_huruf = 'E';
+            document.getElementById("c").value = nilai_huruf;
+        }
+    </script>
+</body>
+
+</html>
