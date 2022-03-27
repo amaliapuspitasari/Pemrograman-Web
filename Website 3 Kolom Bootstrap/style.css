@@ -1,0 +1,54 @@
+.banner {
+    background: url(image/KELUD.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+#button {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #dc3545;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.kotak {
+    display: inline-block;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.kotak i {
+    position: relative;
+    top: 30px;
+}
+
+.wisata {
+    background-color: rgb(238, 165, 116);
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    background-color: bisque;
+    text-decoration: none;
+}
+
+.card-body h3 {
+    text-decoration: none;
+}
+
+.crop.img {
+    object-fit: cover;
+}
+
+.about {
+    background-color: bisque;
+    color: black;
+}
